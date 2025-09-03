@@ -15,37 +15,37 @@ const Projects = () => {
   ];
 
   const projects = [
-    {
-      id: 1,
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce platform built with React, Node.js, and PostgreSQL. Features include real-time inventory management, secure payment processing, and responsive design.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
+     {
+      id: 6,
+      title: "OrnaVault",
+      description: "specially for Jwellery  shops, A site which manages  the shops and customers in a single place .",
+      image: "https://imgs.search.brave.com/Dbmq-Ys4WG1NQ61elq6WrL7p9uQhVXm_ryX5BKpKM5I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjM5/Nzc3NDg4L3Bob3Rv/L2RpYW1vbmQtb24t/dGhlLXdhdGVyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz00/Tm52eTd6czhXNW1u/YnRKdWJlVFdSUzJL/Z3VvT2I0dVRaSkNE/YjVCM1lFPQ",
+      technologies: ["Vue.js", "D3.js", "Express", "PostgreSQL", "Chart.js"],
       category: "web",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
-      featured: true
+      liveUrl: "https://ornavault.netlify.app/",
+      githubUrl: "https://github.com/Akshitsingh234/Jwellery-Shop.git"
     },
-    {
-      id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team collaboration features, and intuitive drag-and-drop interface.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80",
-      technologies: ["React", "Firebase", "Material-UI", "WebSocket"],
-      category: "web",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      id: 3,
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard with interactive maps, detailed forecasts, and location-based recommendations.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80",
-      technologies: ["React Native", "OpenWeatherAPI", "Maps", "Redux"],
-      category: "mobile",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
+    // {
+    //   id: 1,
+    //   title: "E-Commerce Platform",
+    //   description: "A modern e-commerce platform built with React, Node.js, and PostgreSQL. Features include real-time inventory management, secure payment processing, and responsive design.",
+    //   image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80",
+    //   technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
+    //   category: "web",
+    //   liveUrl: "https://example.com",
+    //   githubUrl: "https://github.com",
+    //   featured: true
+    // },
+    // {
+    //   id: 2,
+    //   title: "Task Management App",
+    //   description: "A collaborative task management application with real-time updates, team collaboration features, and intuitive drag-and-drop interface.",
+    //   image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80",
+    //   technologies: ["React", "Firebase", "Material-UI", "WebSocket"],
+    //   category: "web",
+    //   liveUrl: "https://example.com",
+    //   githubUrl: "https://github.com"
+    // },
     {
       id: 4,
       title: "Portfolio Website",
@@ -57,24 +57,26 @@ const Projects = () => {
       githubUrl: "https://github.com"
     },
     {
-      id: 5,
-      title: "Blog API",
-      description: "RESTful API for a blogging platform with authentication, CRUD operations, and advanced search functionality.",
-      image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=800&q=80",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT", "Swagger"],
-      category: "backend",
-      githubUrl: "https://github.com"
-    },
-    {
-      id: 6,
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media management with real-time data visualization and automated reporting features.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-      technologies: ["Vue.js", "D3.js", "Express", "PostgreSQL", "Chart.js"],
-      category: "web",
+      id: 3,
+      title: "Panchkarma-care",
+      description: "A fully working , Hospital Management system, it is designed to make the less use of physical records.",
+      image: "https://imgs.search.brave.com/eKLuL8se1CqqVRkwa4lvRSS2SQRkTOdlxvWsEknsXRA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyNC8x/Mi8zMS8wNi80Ny9k/b2N0b3ItOTMwMTY2/M182NDAuanBn",
+      technologies: ["React Native", "OpenWeatherAPI", "Maps", "Redux"],
+      category: "mobile",
       liveUrl: "https://example.com",
       githubUrl: "https://github.com"
-    }
+    },
+    
+    // {
+    //   id: 5,
+    //   title: "Blog API",
+    //   description: "RESTful API for a blogging platform with authentication, CRUD operations, and advanced search functionality.",
+    //   image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=800&q=80",
+    //   technologies: ["Node.js", "Express", "MongoDB", "JWT", "Swagger"],
+    //   category: "backend",
+    //   githubUrl: "https://github.com"
+    // },
+   
   ];
 
   const filteredProjects = filter === 'all' 
@@ -135,7 +137,7 @@ const Projects = () => {
                     technologies={project.technologies}
                     liveUrl={project.liveUrl}
                     githubUrl={project.githubUrl}
-                    featured={project.featured}
+                    // featured={project.featured}
                   />
                 </div>
               ))}

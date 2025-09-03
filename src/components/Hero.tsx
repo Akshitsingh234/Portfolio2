@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import profilePicture from '@/assets/profile-picture.jpg';
+import linkedin from '@/assets/linkedin.jpeg';
 
 const Hero = () => {
   const [currentText, setCurrentText] = useState(0);
@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="mb-6">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
                 <span className="text-foreground">Hi, I'm </span>
-                <span className="text-gradient-primary">Alex</span>
+                <span className="text-gradient-primary">Akshit</span>
               </h1>
               <div className="h-12 flex items-center justify-center lg:justify-start">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-accent transition-all duration-500">
@@ -69,15 +69,40 @@ const Hero = () => {
 
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
-              <Button variant="ghost" size="icon" className="hover:text-accent hover:bg-accent/10 rounded-full hover-lift">
-                <Github size={20} />
-              </Button>
-              <Button variant="ghost" size="icon" className="hover:text-accent hover:bg-accent/10 rounded-full hover-lift">
+              <a
+  href="https://github.com/Akshitsingh234" 
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button 
+    variant="ghost" 
+    size="icon" 
+    className="hover:text-accent hover:bg-accent/10 rounded-full hover-lift"
+  >
+    <Github size={20} />
+  </Button>
+</a>
+
+     <a
+  href="https://www.linkedin.com/in/akshit-singh-8899a32a5/" 
+  target="_blank"
+  rel="noopener noreferrer"
+>
+   <Button variant="ghost" size="icon" className="hover:text-accent hover:bg-accent/10 rounded-full hover-lift">
                 <Linkedin size={20} />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-accent hover:bg-accent/10 rounded-full hover-lift">
+</a>
+
+
+    <a
+      href="https://www.linkedin.com/in/akshit-singh-8899a32a5/" 
+  target="_blank"
+  rel="noopener noreferrer"
+>   <Button variant="ghost" size="icon" className="hover:text-accent hover:bg-accent/10 rounded-full hover-lift">
                 <Mail size={20} />
-              </Button>
+              </Button> </a>
+           
+             
               <Button variant="ghost" size="icon" className="hover:text-accent hover:bg-accent/10 rounded-full hover-lift">
                 <Download size={20} />
               </Button>
@@ -89,7 +114,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden shadow-glow hover:shadow-accent transition-all duration-500 hover-lift">
                 <img
-                  src={profilePicture}
+                  src={linkedin}
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />

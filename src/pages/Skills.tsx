@@ -33,12 +33,12 @@ const Skills = () => {
       title: "Backend Development", 
       description: "Building robust and scalable server-side applications",
       skills: [
-        { name: "Node.js", level: 88, icon: Server, category: "Runtime", color: "primary" },
-        { name: "Express", level: 85, icon: Server, category: "Framework", color: "accent" },
-        { name: "PostgreSQL", level: 82, icon: Database, category: "Database", color: "coral" },
-        { name: "MongoDB", level: 78, icon: Database, category: "Database", color: "primary" },
-        { name: "GraphQL", level: 75, icon: Zap, category: "API", color: "accent" },
-        { name: "REST APIs", level: 90, icon: Cloud, category: "API", color: "coral" }
+        { name: "Spring-Boot", level: 100, icon: Server, category: "Runtime", color: "primary" },
+        { name: "Java Core", level: 100, icon: Server, category: "Framework", color: "accent" },
+        { name: "MYSQL", level: 100, icon: Database, category: "Database", color: "coral" },
+        { name: "MongoDB", level: 100, icon: Database, category: "Database", color: "primary" },
+        { name: "GraphQL", level: 100, icon: Zap, category: "API", color: "accent" },
+        { name: "REST APIs", level: 100, icon: Cloud, category: "API", color: "coral" }
       ]
     },
     {
@@ -70,6 +70,8 @@ const Skills = () => {
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto animate-slide-up" style={{ animationDelay: '0.1s' }}>
               A comprehensive overview of my technical expertise and proficiency levels 
               across various technologies and tools I use to build amazing digital experiences.
+              
+                         I  am  a Competitive Programmer
             </p>
           </section>
 

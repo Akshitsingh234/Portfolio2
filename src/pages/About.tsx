@@ -1,42 +1,42 @@
 import Navigation from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
 import { Download, Coffee, Code, Heart } from 'lucide-react';
-import profilePicture from '@/assets/profile-picture.jpg';
+import linkedin from '@/assets/linkedin.jpeg';
 
 const About = () => {
-  const experiences = [
-    {
-      period: "2022 - Present",
-      title: "Senior Frontend Developer",
-      company: "Tech Innovations Inc.",
-      description: "Leading frontend development for enterprise applications using React, TypeScript, and modern tools."
-    },
-    {
-      period: "2020 - 2022",
-      title: "Full Stack Developer",
-      company: "Digital Solutions Co.",
-      description: "Developed and maintained full-stack applications with React, Node.js, and PostgreSQL."
-    },
-    {
-      period: "2018 - 2020",
-      title: "Junior Web Developer",
-      company: "StartUp Studio",
-      description: "Built responsive websites and learned modern web development practices and methodologies."
-    }
-  ];
+  // const experiences = [
+  //   {
+  //     period: "2022 - Present",
+  //     title: "Senior Frontend Developer",
+  //     company: "Tech Innovations Inc.",
+  //     description: "Leading frontend development for enterprise applications using React, TypeScript, and modern tools."
+  //   },
+  //   {
+  //     period: "2020 - 2022",
+  //     title: "Full Stack Developer",
+  //     company: "Digital Solutions Co.",
+  //     description: "Developed and maintained full-stack applications with React, Node.js, and PostgreSQL."
+  //   },
+  //   {
+  //     period: "2018 - 2020",
+  //     title: "Junior Web Developer",
+  //     company: "StartUp Studio",
+  //     description: "Built responsive websites and learned modern web development practices and methodologies."
+  //   }
+  // ];
 
   const education = [
     {
-      period: "2016 - 2018",
-      degree: "Master of Science in Computer Science",
-      institution: "Tech University",
-      description: "Specialized in software engineering and web technologies. Graduated with honors."
+      period: "2023 - 2027",
+      degree: " Computer Science and Engineering",
+      institution: "Krishna Institute of Enginnering and Technology",
+      description: "Specialized in  Artificial  intelligence and Machine Learnign"
     },
     {
-      period: "2012 - 2016",
-      degree: "Bachelor of Science in Information Technology",
-      institution: "State University",
-      description: "Comprehensive study of programming, databases, and system design. Active in coding clubs."
+      period: "2022 - 2023",
+      degree: "Jee Preperation , Kota",
+      // institution: "State University",
+      // description: "Comprehensive study of programming, databases, and system design. Active in coding clubs."
     }
   ];
 
@@ -90,7 +90,7 @@ const About = () => {
               <div className="flex justify-center animate-slide-in-right">
                 <div className="relative">
                   <img
-                    src={profilePicture}
+                    src={linkedin}
                     alt="About me"
                     className="w-80 h-80 md:w-96 md:h-96 rounded-2xl object-cover shadow-glow hover:shadow-accent transition-all duration-500 hover-lift"
                   />
@@ -101,12 +101,12 @@ const About = () => {
           </section>
 
           {/* Experience Section */}
-          <section className="py-16">
+          {/* <section className="py-16">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
               <span className="text-gradient-accent">Experience</span>
-            </h2>
+            </h2> */}
             
-            <div className="space-y-8">
+            {/* <div className="space-y-8">
               {experiences.map((exp, index) => (
                 <div
                   key={index}
@@ -127,8 +127,8 @@ const About = () => {
                   </div>
                 </div>
               ))}
-            </div>
-          </section>
+            </div> */}
+          {/* </section> */}
 
           {/* Education Section */}
           <section className="py-16">

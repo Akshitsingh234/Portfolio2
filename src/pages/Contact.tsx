@@ -52,21 +52,21 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "alex.developer@email.com",
+      value: "akshitsingh885@gmail.com",
       description: "Send me an email anytime",
       color: "accent"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
+      value: "+91 9027856170",
       description: "Available Mon-Fri, 9AM-6PM EST",
       color: "primary"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "New York, NY",
+      value: "Ghaziabad",
       description: "Available for remote work worldwide",
       color: "coral"
     },
