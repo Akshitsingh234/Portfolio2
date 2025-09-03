@@ -25,6 +25,21 @@ const About = () => {
     }
   ];
 
+  const education = [
+    {
+      period: "2016 - 2018",
+      degree: "Master of Science in Computer Science",
+      institution: "Tech University",
+      description: "Specialized in software engineering and web technologies. Graduated with honors."
+    },
+    {
+      period: "2012 - 2016",
+      degree: "Bachelor of Science in Information Technology",
+      institution: "State University",
+      description: "Comprehensive study of programming, databases, and system design. Active in coding clubs."
+    }
+  ];
+
   const interests = [
     { icon: Code, label: "Clean Code", description: "Writing maintainable and readable code" },
     { icon: Coffee, label: "Learning", description: "Always exploring new technologies" },
@@ -108,6 +123,36 @@ const About = () => {
                       </h3>
                       <p className="text-coral font-medium mb-2">{exp.company}</p>
                       <p className="text-muted-foreground">{exp.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Education Section */}
+          <section className="py-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              <span className="text-gradient-secondary">Education</span>
+            </h2>
+            
+            <div className="space-y-8">
+              {education.map((edu, index) => (
+                <div
+                  key={index}
+                  className="glass rounded-2xl p-6 hover-lift hover-glow transition-all duration-300 animate-slide-up"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div className="md:col-span-1">
+                      <span className="text-accent font-semibold">{edu.period}</span>
+                    </div>
+                    <div className="md:col-span-3">
+                      <h3 className="text-xl font-semibold text-foreground mb-1">
+                        {edu.degree}
+                      </h3>
+                      <p className="text-coral font-medium mb-2">{edu.institution}</p>
+                      <p className="text-muted-foreground">{edu.description}</p>
                     </div>
                   </div>
                 </div>
