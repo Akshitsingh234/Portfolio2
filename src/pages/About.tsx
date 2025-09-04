@@ -32,12 +32,20 @@ const About = () => {
       institution: "Krishna Institute of Enginnering and Technology",
       description: "Specialized in  Artificial  intelligence and Machine Learnign"
     },
-    {
-      period: "2022 - 2023",
-      degree: "Jee Preperation , Kota",
-      // institution: "State University",
-      // description: "Comprehensive study of programming, databases, and system design. Active in coding clubs."
-    }
+    //  {
+    //   period: "2021 - 2022",
+    //   degree: "Class XII ",
+    //   institution: "Gyan Sthali residential school"
+    //   // institution: "State University",
+    //   // description: "Comprehensive study of programming, databases, and system design. Active in coding clubs."
+    // },
+    // {
+    //   period: "2019 - 2020",
+    //   degree: "Class X",
+    //   institution: "Gyan Sthali residential school"
+    //   // institution: "State University",
+    //   // description: "Comprehensive study of programming, databases, and system design. Active in coding clubs."
+    // }
   ];
 
   const interests = [

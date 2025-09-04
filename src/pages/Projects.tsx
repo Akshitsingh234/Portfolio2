@@ -53,7 +53,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=800&q=80",
       technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Vercel"],
       category: "ui",
-      liveUrl: "https://example.com",
+      liveUrl: "https://akshitfolio.netlify.app/",
       githubUrl: "https://github.com"
     },
     {
