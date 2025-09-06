@@ -60,10 +60,10 @@ const Projects = () => {
       id: 3,
       title: "Panchkarma-care",
       description: "A fully working , Hospital Management system, it is designed to make the less use of physical records.",
-      image: "panchkarmahospital.netlify.app",
+      image: "https://imgs.search.brave.com/eKLuL8se1CqqVRkwa4lvRSS2SQRkTOdlxvWsEknsXRA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyNC8x/Mi8zMS8wNi80Ny9k/b2N0b3ItOTMwMTY2/M182NDAuanBn",
       technologies: ["React Native", "OpenWeatherAPI", "Maps", "Redux"],
       category: "mobile",
-      liveUrl: "https://example.com",
+      liveUrl: "panchkarmahospital.netlify.app",
       githubUrl: "https://github.com"
     },
     
